@@ -13,6 +13,7 @@ Bu proje basitçe Volley kullanımını denemek için yapıldı.Veri elde etmek 
 
 [JSONARRAY][4]:A JSONArray is an ordered sequence of values. Its external text form is a string wrapped in square brackets with commas separating the values
 
+----------------------------------------------------------------------------------------------
 
 
 BEFORE DATA
