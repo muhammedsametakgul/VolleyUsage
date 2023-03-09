@@ -8,7 +8,9 @@ Bu proje basitçe Volley kullanımını denemek için yapıldı.Veri elde etmek 
 
 ----------------------------------------------------------------------------------------------
 [Volley][1] : Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
+
 [JSONOBJECT][3]:JSON object literals are surrounded by curly braces {}. JSON object literals contains key/value pairs. Keys and values are separated by a colon
+
 [JSONARRAY][4]:A JSONArray is an ordered sequence of values. Its external text form is a string wrapped in square brackets with commas separating the values
 
 
