@@ -9,9 +9,11 @@ Bu proje basitçe Volley kullanımını denemek için yapıldı.Veri elde etmek 
 ----------------------------------------------------------------------------------------------
 [Volley][1] : Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
 
-[JSONOBJECT][3]:JSON object literals are surrounded by curly braces {}. JSON object literals contains key/value pairs. Keys and values are separated by a colon
+[JSONOBJECT][3] : JSON object literals are surrounded by curly braces {}. JSON object literals contains key/value pairs. Keys and values are separated by a colon
 
-[JSONARRAY][4]:A JSONArray is an ordered sequence of values. Its external text form is a string wrapped in square brackets with commas separating the values
+[JSONARRAY][4] : A JSONArray is an ordered sequence of values. Its external text form is a string wrapped in square brackets with commas separating the values
+
+[Viewbinding][5]: View binding is a feature that allows you to more easily write code that interacts with views. Once view binding is enabled in a module, it generates a binding class for each XML layout file present in that module.
 
 ----------------------------------------------------------------------------------------------
 
@@ -28,4 +30,5 @@ AFTER DATA
 [2]:https://jsonplaceholder.typicode.com/posts
 [3]:https://developer.android.com/reference/org/json/JSONObject
 [4]:https://developer.android.com/reference/org/json/JSONArray
+[5]:https://developer.android.com/topic/libraries/view-binding
 
