@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
           val request=StringRequest(Request.Method.GET,url,
               Response.Listener {response ->
                   val gelenVeri=response.toString()
-                  //PARSEL İŞLEMİ
+                  //Request İŞLEMİ(JSON and JARRAY)
                  try {
                      val jArray=JSONArray(gelenVeri)
                      for(i in 0..1){
