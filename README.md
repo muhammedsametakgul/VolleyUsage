@@ -6,7 +6,8 @@ This project has been made to try using Volley basically.I have used  [jsonplace
 //TR
 Bu proje basitçe Volley kullanımını denemek için yapıldı.Veri elde etmek için [jsonplaceholder][2] kullandım.
 
-----------------------------------------------------------------------------------------------
+--------------------------------------------LIBRARIES USED----------------------------------------------------------
+
 [Volley][1] : Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
 
 [JSONOBJECT][3] : JSON object literals are surrounded by curly braces {}. JSON object literals contains key/value pairs. Keys and values are separated by a colon
