@@ -9,19 +9,22 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.example.volleykullanimi.databinding.ActivityMainBinding
 import org.json.JSONArray
 
 class MainActivity : AppCompatActivity() {
-    val url="https://jsonplaceholder.typicode.com/posts"
+   //viewbinding
+    private lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding =ActivityMainBinding.inflate(layoutInflater)
+        val view =binding.root
+        setContentView(view)
 
-        val button=findViewById<Button>(R.id.btn_Input)
-        val text=findViewById<TextView>(R.id.textView)
+        val url="https://jsonplaceholder.typicode.com/posts"
 
 
-      button.setOnClickListener {
+      binding.btnInput.setOnClickListener {
           val queue= Volley.newRequestQueue(this)
           val request=StringRequest(Request.Method.GET,url,
               Response.Listener {response ->
@@ -35,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                          val id = jObject.getInt("id")
                          val title =jObject.getString("title")
                          val body=jObject.getString("body")
-                         text.text="USER ID:"+userid.toString()+"\n"+"ID: "+id.toString()+"\n"+"TITLE: "+title+"\n"+"BODY: "+body
+                         binding.textView.text="USER ID:"+userid.toString()+"\n"+"ID: "+id.toString()+"\n"+"TITLE: "+title+"\n"+"BODY: "+body
 
                          Log.e("USERID:",userid.toString())
                          Log.e("ID:",id.toString())
